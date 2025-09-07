@@ -1,0 +1,21 @@
+tensorflow
+notebook
+pandas
+numpy
+matplotlib
+seaborn
+python-box # convert Python dictionaries into objects for easier access
+pyYAML  # Reads and writes YAML files
+tqdm    # Provides progress bars for loops, useful in training loops or data processing
+ensure
+joblib
+types-PyYAML    #P rovides type hints/stubs for PyYAML
+scipy   # Scientific computing library on top of numpy
+-e . # will look for setup.py and install
+dataclasses
+
+# Core ML → tensorflow, numpy, scipy
+# Data handling → pandas, pyYAML, python-box
+# Visualization → matplotlib, seaborn, tqdm (progress bar)
+# Utilities → joblib, ensure, types-PyYAML
+# Project package → -e .
