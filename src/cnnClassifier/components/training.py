@@ -40,6 +40,7 @@ class Training:
             directory=self.config.training_data,
             subset="validation",
             shuffle=False,
+            class_mode='binary',
             **dataflow_kwargs
         )
 
@@ -60,6 +61,7 @@ class Training:
             directory=self.config.training_data,
             subset="training",
             shuffle=True,
+            class_mode='binary', 
             **dataflow_kwargs
         )
 

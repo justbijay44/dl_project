@@ -1,4 +1,5 @@
 from cnnClassifier.entity.config_entity import (DataIngestionConfig,
                                                 PrepareBaseModelConfig,
                                                 PrepareCallbacksConfig,
-                                                TrainConfig)
+                                                TrainConfig,
+                                                EvaluateConfig)

@@ -13,7 +13,8 @@ types-PyYAML    #P rovides type hints/stubs for PyYAML
 scipy   # Scientific computing library on top of numpy
 -e . # will look for setup.py and install
 dataclasses
-
+Flask
+Flask-Cors
 # Core ML → tensorflow, numpy, scipy
 # Data handling → pandas, pyYAML, python-box
 # Visualization → matplotlib, seaborn, tqdm (progress bar)
